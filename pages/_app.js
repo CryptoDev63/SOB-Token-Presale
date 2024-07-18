@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import ContextProvider from "src/utils/ContextProvider";
 import "@assets/styles/style.css";
-import GlobalStyles from "@assets/styles/GlobalStyles";
 import Image from "next/image";
 
 import '@rainbow-me/rainbowkit/styles.css';
@@ -71,7 +70,6 @@ const App = ({ Component, pageProps }) => {
           modalSize="compact"
           theme={customTheme}>
           <ContextProvider>
-            <GlobalStyles />
             <Component {...pageProps} />
             <ToastContainer pauseOnFocusLoss={true} position="top-right" />
           </ContextProvider>

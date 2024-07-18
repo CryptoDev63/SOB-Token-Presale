@@ -28,13 +28,13 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-transparent fixed top-1 w-full px-5 flex">
-      <div className="flex w-full justify-end">
+    <header className="bg-transparent pt-1 w-full px-5 flex z-50">
+      <div className="flex w-full justify-end z-50">
         <MenuBar />
       </div>
-      <div className="flex w-full justify-end pr-8 items-center">
+      <div className="flex w-full justify-end lg:pr-8 pr-1 items-center z-50">
         <WalletConnectButton />
-      </div>      
+      </div>
       {isMobileMenu && 
         <div className="bepe_menu_btns">
           <button className="menu_btn" onClick={() => handleMobileMenu()}>

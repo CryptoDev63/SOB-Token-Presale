@@ -16,10 +16,10 @@ const MenuItems = [
 const MenuBar = () => {
   return (
     <div className="flex justify-between w-full items-center pr-10">
-      <Link href="/">
-        <Image width={200} height={200} className="h-full" src={logo.src} alt="logo" />
+      <Link href="/" className="lg:w-32 lg:h-20 w-20 h-16">
+        <img className="w-full h-full" src={logo.src} alt="logo" />
       </Link>
-      <div className="flex">
+      <div className="lg:flex hidden">
         {MenuItems.map((item, index) => {
           return (
             <Link href={item.href} key={`${item.name}_${index}`}>

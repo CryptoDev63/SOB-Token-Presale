@@ -17,7 +17,7 @@ export default function ScrollMove({
   const x = useTransform(
     scrollYProgress,
     [0, 100],
-    [-100, 0],
+    [100, 0],
     { ease: cubicBezier(0.17, 0.67, 0.83, 0.67) }
   );
 
