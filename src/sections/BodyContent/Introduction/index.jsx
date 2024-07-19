@@ -26,7 +26,7 @@ const Introduction = () => {
         <div className="w-full flex flex-col justify-items-start h-fit z-50">
             <div className="p-6 pt-0">
                 <PageHeader pageTitle="$SOB TOKEN PRESALE" />
-                <div className="lg:text-xl text-sm text-white font-normal lg:w-10/12 ">
+                <div className="lg:text-xl text-sm text-white font-normal lg:w-7/12 ">
                     The SOB Token is a gateway to the new SOB world. It integrates with all products, serving as a tool to accelerate processes. For more information, read the GitBook.
                 </div>
                 <GradientButton name="GITBOOK" />

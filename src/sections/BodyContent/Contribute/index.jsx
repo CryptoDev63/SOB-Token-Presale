@@ -7,9 +7,9 @@ import Progress from "src/components/Progress"
 
 const Contribute = () => {
     return (
-        <div className="w-full flex flex-col items-center z-10 lg:p-0 p-3">
-            {/* <img className="lg:w-96 w-[20rem] pt-8" src={Fist.src} alt="Fist" /> */}
-            <img className="lg:w-96 w-[20rem] pt-8" src={Second.src} alt="Second" />
+        <div className="w-full flex flex-col items-center z-10 p-3 lg:mt-[-4rem] lg:p-0">
+            {/* <img className="lg:w-96 w-[20rem] pt-8 lg:pt-36" src={Fist.src} alt="Fist" /> */}
+            <img className="lg:w-[33rem] w-[20rem] lg:pt-0 pt-8" src={Second.src} alt="Second" />
             <div className="lg:w-96 w-[20rem] h-60 p-2 flex flex-col items-center text-white bg-[url('/images/buy_background.png')] lg:mb-0 mb-4">
                 <div className="text-2xl">$SOB SALE</div>
                 <div className="w-full flex flex-col items-center justify-center">
